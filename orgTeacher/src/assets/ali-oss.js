@@ -1,9 +1,9 @@
 import crypto from 'crypto-js'
 let OSS = require('ali-oss')
 let Base64 = require('js-base64').Base64
-const accessid = 'LTAI4Fv1ABmKn4yuxnQf2vS9'
-const accesskey = '4SB0SuuZ1PsMO4rwWD7eZTzP7qaelt'
-const host = 'http://wuxindx.oss-cn-beijing.aliyuncs.com'
+const accessid = 'xxx'
+const accesskey = 'xxx'
+const host = 'xxx'
 var policyText = {
   'expiration': '2020-01-01T12:00:00.000Z', // 设置该Policy的失效时间，超过这个失效时间之后，就没有办法通过这个policy上传文件了
   'conditions': [
@@ -18,9 +18,9 @@ const timestamp = Date.parse(new Date()) / 1000
 var now = timestamp
 export function client () {
   return new OSS({
-    accessKeyId: 'LTAI4Fv1ABmKn4yuxnQf2vS9',
-    accessKeySecret: '4SB0SuuZ1PsMO4rwWD7eZTzP7qaelt',
+    accessKeyId: 'xxx',
+    accessKeySecret: 'xxx',
     region: 'oss-cn-beijing', // oss地区
-    bucket: 'wuxindx'
+    bucket: 'xxx'
   })
 }
