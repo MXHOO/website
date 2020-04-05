@@ -18,10 +18,10 @@ var policyText = {
 };
 export function client(){
         return new OSS({
-            accessKeyId:"LTAI4Fv1ABmKn4yuxnQf2vS9" ,
-            accessKeySecret: "4SB0SuuZ1PsMO4rwWD7eZTzP7qaelt",
-            region:"oss-cn-beijing", // oss地区
-            bucket: "wuxindx"       
+            accessKeyId:"xxx";
+            accessKeySecret: "xxx",
+            region:"", // oss地区
+            bucket: "xxx"       
         })
       
 }
