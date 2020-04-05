@@ -1,9 +1,9 @@
 let OSS=require('ali-oss')
 let Base64 = require('js-base64').Base64
 import crypto from 'crypto-js'
-const accessid = 'LTAI4Fv1ABmKn4yuxnQf2vS9';
-const accesskey = '4SB0SuuZ1PsMO4rwWD7eZTzP7qaelt';
-const host = 'http://wuxindx.oss-cn-beijing.aliyuncs.com';
+const accessid = 'xxx';
+const accesskey = 'xxx';
+const host = "xxx";
 var policyBase64 =Base64.encode(JSON.stringify(policyText))
 var message = policyBase64
 var bytes =crypto.HmacSHA1(message, accesskey);
